@@ -1,0 +1,120 @@
+.table, tr, th ,td {
+    border: 2px solid white;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse:collapse;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.925);
+    background-color: rgba(255, 255, 255, 0.075);
+    color: white;
+    font-size: 20px;
+}
+
+th {
+    width: 180px;
+    height: 50px;
+}
+
+
+    @media screen and (max-width: 1280px) {
+
+        table {
+            border-collapse:collapse;
+            width: 800px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .introduce {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        table {
+            border-collapse:collapse;
+            width: auto;
+            text-align: center;
+        }
+
+        .introduce {
+            width: auto;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        table {
+            border-collapse:collapse;
+            width: auto;
+            text-align: center;
+        }
+
+        .introduce {
+            width: auto;
+        }
+
+    }
+
+.introduce {
+    width: 800px auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.925);
+    background-color: rgba(255, 255, 255, 0.075);
+    color: white;
+}   
+
+p {
+    padding: 20px;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    padding: 4em 0 4em 0;
+}
+    
+#footer:before {
+    content: '';
+    border-top: solid 1px rgba(255, 255, 255, 0.25);
+    width: 10em;
+    display: block;
+    margin: 0 auto 3em auto;
+}
+    
+            @media screen and (max-width: 1280px) {
+    
+                #footer {
+                    padding: 2em 0 2em 0;
+                }
+    
+            }
+
+
+            @-ms-viewport {
+                width: device-width;
+            }
+        
+            body {
+                -ms-overflow-style: scrollbar;
+            }
+        
+            @media screen and (max-width: 480px) {
+        
+                html, body {
+                    min-width: 320px;
+                }
+        
+            }
+
+
